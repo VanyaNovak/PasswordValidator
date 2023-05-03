@@ -13,7 +13,7 @@ class PasswordValidator
       char, range = condition.split(' ')
       min, max = range.split('-').map(&:to_i)
 
-      if min >= 1 && max >= 1
+      if valid_range?(min, max)
         char_count = password.count(char)
 
         valid_passwords += 1 if char_count.between?(min, max)
@@ -21,6 +21,10 @@ class PasswordValidator
     end
 
     valid_passwords
+  end
+
+  def valid_range?(min, max)
+    min >= 1 && max >= 1
   end
 end
 

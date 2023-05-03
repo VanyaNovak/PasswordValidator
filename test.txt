@@ -4,3 +4,6 @@ c 3-5: ccc
 d -2--1: ddbb
 e 2.5-4: eebb
 f 1-2: aaaa
+a 1-5: abcdj
+z 2-4: asfalseiruqwo
+b 3-6: bhhkkbbjjjb
