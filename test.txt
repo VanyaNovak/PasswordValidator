@@ -1,0 +1,6 @@
+a 2-4: aabb
+b 1-2: bababa
+c 3-5: ccc
+d -2--1: ddbb
+e 2.5-4: eebb
+f 1-2: aaaa
